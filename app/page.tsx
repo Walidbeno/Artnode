@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Logo from '@/components/Logo'
 
 export default function Home() {
   return (
@@ -12,22 +12,15 @@ export default function Home() {
         background: '#000',
       }}
     >
-      <Image
-        src="/assets/logo.png"
-        alt="Artnode"
-        width={240}
-        height={240}
-        priority
-        style={{ width: 'auto', height: 'auto', maxWidth: 'min(60vw, 320px)' }}
-      />
+      <Logo size={240} />
       <p
         style={{
           marginTop: '1.5rem',
-          fontSize: '0.65rem',
+          fontSize: '0.75rem',
           fontWeight: 400,
-          letterSpacing: '0.08em',
+          letterSpacing: '0.12em',
           textTransform: 'uppercase',
-          color: 'rgba(255,255,255,0.5)',
+          color: 'rgba(255,255,255,0.75)',
         }}
       >
         Website coming soon
