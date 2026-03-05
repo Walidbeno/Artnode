@@ -12,7 +12,7 @@ export default function Home() {
         background: '#000',
       }}
     >
-      <Logo size={240} />
+      <Logo size={140} />
       <p
         style={{
           marginTop: '1.5rem',
@@ -23,7 +23,7 @@ export default function Home() {
           color: 'rgba(255,255,255,0.75)',
         }}
       >
-        Website coming soon
+       
       </p>
     </main>
   )
